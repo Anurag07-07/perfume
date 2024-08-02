@@ -513,6 +513,11 @@
          </div>
 </div>
 <script src="https://cdn.jsdelivr.net/npm/circletype@2.3.0/dist/circletype.min.js"></script>
-<script src="script.js"></script>
+<script>
+    let text = document.getElementById('auto_radius');
+    const rotate = new CircleType(text).radius(60)
+
+    let slides = document.querySelectorAll('#slide');
+</script>
 </body>
 </html>
